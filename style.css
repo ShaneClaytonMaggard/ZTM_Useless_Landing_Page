@@ -1,0 +1,112 @@
+html,body{
+    background-color: black;
+    
+}
+
+#carouselExampleAutoplaying{
+    width: 50%;
+    margin: auto;
+    border-radius: 1%;
+    border: 0.4rem solid white;
+    padding: 0.75rem;
+    background-color: white;
+    margin-top: 2rem;
+}
+#colors{
+    font-size: xx-large;
+    text-shadow: 2px 2px 1px grey;
+    font-family: 'Kanit', sans-serif;
+}
+#video{
+    margin: auto;
+    width: 55vw;
+    height: 50vh;
+    display: block;
+    margin-top: 0.25rem;
+    border-radius: 4%;
+}
+.accordion-item{
+    width: 50vw;
+    margin: auto;
+}
+#features{
+    margin-top: 10%;
+    background-color: aliceblue;
+    padding: 0.2rem;
+    border-radius: 35%;
+    text-align: center;
+    margin: auto;
+    width: 50vw;
+    text-shadow: 1px 1px 2px grey;
+}
+#theVid{
+    width: 50vw;
+    margin: auto;
+    display: block;
+}
+.textGray{
+    color: grey
+}
+.goRed{
+    transition: transform .2s
+}
+.goRed:hover{
+    color:red;
+}
+#price{
+    color: red;
+    text-align: center;
+    text-shadow: 1px 1px 4px yellow;
+    font-size: 5vw;;
+}
+@media screen and (max-width: 767px) {
+    html{
+        overflow-x: hidden;
+    }
+    .accordion-item{
+        width: 95vw;
+    }
+    #carouselExampleAutoplaying{
+        width: 95vw;
+    }
+    #video{
+        width: 100vw;
+        height: 100vh;
+    }
+    #theVid{
+        width: fill;
+        margin: auto;
+        display: block;
+    }
+}
+.price{
+    color:gray;
+} 
+table{
+    margin: auto;
+    width: 90vw;
+    color:gray;
+    font-size: 5vw;
+}
+td{
+    border:1px solid white;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px whitesmoke;
+}
+#order{
+    padding: 10%;
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: grey;
+    text-decoration: none;
+    font-size: 5vw;
+    transition: 0.5s ease-out;
+}
+#order:hover{
+    color:aliceblue;
+    transform: scale(1.25);
+}
+.nav-link:hover{
+    color: lightgray;
+}
